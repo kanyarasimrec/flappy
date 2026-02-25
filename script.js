@@ -11,7 +11,7 @@ let playerImage = new Image();
 playerImage.src = "start.png";
 
 let blockImage = new Image();
-blockImage.src = "start.png";
+blockImage.src = "block.gif";
 
 // Mobile Optimized Player
 let player = {
@@ -135,5 +135,6 @@ document.getElementById("startBtn").onclick = () => {
 
 // Restart
 document.getElementById("restartBtn").onclick = resetGame;
+
 
 gameLoop();
