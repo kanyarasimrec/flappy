@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square Flappy Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+<h1>ABBA AJAY.....</h1>
+
+<!-- Start Screen -->
+<div id="startScreen" class="overlay">
+    <img src="a2.gif" class="screenImage">
+    <button id="startBtn">Tap To Start</button>
+</div>
+
+<!-- Game Over Screen -->
+<div id="gameOverScreen" class="overlay hidden">
+    <img src="ajay.gif" class="screenImage">
+    <h2>ABBA  AJAYYY</h2>
+    <button id="restartBtn">Restart</button>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+<p>Score: <span id="score">0</span></p>
+
+<audio id="playMusic" src="chikiri.mp3"></audio>
+<audio id="endMusic" src="ajjj.mp3" volume="1"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

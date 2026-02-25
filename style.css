@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: #87CEEB;
+    text-align: center;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 12px
+}
+#gameOverScreen h2{
+    background-color: black;
+    color: white;
+    width: 253px;
+    padding: 30px;
+    border-radius: 25px
+}
